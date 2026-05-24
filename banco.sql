@@ -14,6 +14,6 @@ CREATE TABLE veiculos (
   quilometragem INT NOT NULL,
   chassi VARCHAR(100) NOT NULL,
   renavam VARCHAR(100) NOT NULL,
-  data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  data_cadastro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   observacoes TEXT NOT NULL
 );
