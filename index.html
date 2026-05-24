@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Veículos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <h1>Cadastro de Veículos</h1>
+
+    <form id="formVeiculo" class="formulario">
+      <div class="campo">
+        <label>Placa</label>
+        <input type="text" name="placa" required>
+      </div>
+
+      <div class="campo">
+        <label>Marca</label>
+        <input type="text" name="marca" required>
+      </div>
+
+      <div class="campo">
+        <label>Modelo</label>
+        <input type="text" name="modelo" required>
+      </div>
+
+      <div class="campo">
+        <label>Ano de Fabricação</label>
+        <input type="number" name="ano_fabricacao" required>
+      </div>
+
+      <div class="campo">
+        <label>Ano do Modelo</label>
+        <input type="number" name="ano_modelo" required>
+      </div>
+
+      <div class="campo">
+        <label>Cor</label>
+        <input type="text" name="cor" required>
+      </div>
+
+      <div class="campo">
+        <label>Combustível</label>
+        <input type="text" name="combustivel" required>
+      </div>
+
+      <div class="campo">
+        <label>Quilometragem</label>
+        <input type="number" name="quilometragem" required>
+      </div>
+
+      <div class="campo">
+        <label>Chassi</label>
+        <input type="text" name="chassi" required>
+      </div>
+
+      <div class="campo">
+        <label>Renavam</label>
+        <input type="text" name="renavam" required>
+      </div>
+
+      <div class="campo">
+        <label>Data de Cadastro</label>
+        <input type="date" name="data_cadastro" required>
+      </div>
+
+      <div class="campo campo-completo">
+        <label>Observações</label>
+        <textarea name="observacoes" required></textarea>
+      </div>
+
+      <button type="submit">Cadastrar Veículo</button>
+    </form>
+
+    <a href="listar.html" class="link">Ver veículos cadastrados</a>
+  </main>
+
+  <script src="js/cadastro.js"></script>
+</body>
+
+</html>
